@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background: #06F;
+	border-top: 5px solid #424242;
+	margin: 0 auto;
+	font-family: "Helvetica", sans-serif;
+	line-height: 1.4em;
+	width: 600px;
+}
+
+h1,h2 {
+	margin: 0;
+}
+
+h1 {
+	padding: 20px 15px;
+	background: #0CF;
+	color: #fff;
+	text-shadow: 1px 1px 2px #0CF;
+	font-size: 48px;
+	text-align:end;
+}
+
+img {
+	padding: 5px;
+	border:5px solid #FFF;
+	border-width: 5px;
+	background-color: #0CF;
+}
+
+h2 {
+	padding: 10px;
+	color: white;
+	text-align:center;
+}
+
+ol {
+	line-height: 1.4em;
+	color: white;
+	font-size: 20px;
+	text-align:center;
+	
+}
