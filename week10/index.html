@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Tim Decloniemaclennan</title>
+        <meta name="description" content="The homepage of Tim Decloniemaclennan">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+		<header>
+        	<h1> Tim Decloniemaclennan </h1>
+            <h2> Telecommunications and Advertising, East Lansing MI </h2>
+        </header>
+        <div id="map-location" <div id="map-location" data-0="background-image:url(img/blackandwhite.jpg);opacity:.5;" data-500="background-image:url(img/mapcolor.jpg);opacity:1;" data-800="opacity:.5;">
+
+>
+        </div>
+        <nav data-0="position:absolute;top:800px;" data-800="position:absolute;top:800px;" data-1500="position:absolute;top:1550px;">
+        	<ul>
+            	<li> <a href="#About">About </a></li>
+                <li> <a href="#Telecomm Portfolio">Telecomm Portfolio </a></li>
+                <li> <a href="#Advertising Portfolio">Advertising Portfolio </a></li>
+                <li> <a href="#Contact">Contact Me </a></li>
+            </ul>
+        	
+        </nav>
+        <article>
+        	<section id="About">
+            	<h3> About Tim </h3>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras suscipit quam leo, sed rhoncus enim scelerisque sed. Fusce convallis augue laoreet ante ultrices congue. Fusce aliquam vestibulum purus quis dapibus. Nam sit amet velit ac lacus faucibus imperdiet in eu eros. Nam elementum magna eu sapien porttitor vestibulum. Proin non felis nisi. Curabitur ultricies leo eget ante aliquet, a blandit dolor euismod. </p>
+            </section>
+            <section id="Telecomm Portfolio">
+            	<h3> Telecommunications Projects </h3>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras suscipit quam leo, sed rhoncus enim scelerisque sed. Fusce convallis augue laoreet ante ultrices congue. Fusce aliquam vestibulum purus quis dapibus. Nam sit amet velit ac lacus faucibus imperdiet in eu eros. Nam elementum magna eu sapien porttitor vestibulum. Proin non felis nisi. Curabitur ultricies leo eget ante aliquet, a blandit dolor euismod. </p>
+             <ul class ="gallery" >
+                <li><img src="img/thumbnail2.jpg"></li>
+                <li><img src="img/thumbnail4.jpg"></li>
+             </ul>
+                
+            </section>
+            <section id="Advertising Portfolio">
+            	<h3> Advertising Projects </h3>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras suscipit quam leo, sed rhoncus enim scelerisque sed. Fusce convallis augue laoreet ante ultrices congue. Fusce aliquam vestibulum purus quis dapibus. Nam sit amet velit ac lacus faucibus imperdiet in eu eros. Nam elementum magna eu sapien porttitor vestibulum. Proin non felis nisi. Curabitur ultricies leo eget ante aliquet, a blandit dolor euismod. </p>
+             <ul class ="adv">
+            
+                <li><img src="img/thumbnail1.jpg"></li>
+                <li><img src="img/thumbnail3.jpg"></li>
+                
+             </ul>
+            </section>
+            <section id="Contact">
+            	<h3> Contact Me </h3>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras suscipit quam leo, sed rhoncus enim scelerisque sed. Fusce convallis augue laoreet ante ultrices congue. Fusce aliquam vestibulum purus quis dapibus. Nam sit amet velit ac lacus faucibus imperdiet in eu eros. Nam elementum magna eu sapien porttitor vestibulum. Proin non felis nisi. Curabitur ultricies leo eget ante aliquet, a blandit dolor euismod. </p>
+            </section>
+        </article>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+       <script type="text/javascript" src="js/vendor/skrollr.min.js"></script>
+       <script src="js/vendor/skrollr.menu.min.js"></script>
+    <script type="text/javascript">
+	if ($(window).width() > 600) {
+    var s = skrollr.init();
+	
+	//The options (second parameter) are all optional. The values shown are the default values.
+skrollr.menu.init(s, {
+    //skrollr will smoothly animate to the new position using `animateTo`.
+    animate: true,
+
+    //The easing function to use.
+    easing: 'sqrt',
+
+    //How long the animation should take in ms.
+    duration: function(currentTop, targetTop) {
+        //By default, the duration is hardcoded at 500ms.
+        return 500;
+
+        //But you could calculate a value based on the current scroll position (`currentTop`) and the target scroll position (`targetTop`).
+        //return Math.abs(currentTop - targetTop) * 10;
+    },
+
+    //If you pass a handleLink function you'll disable `data-menu-top` and `data-menu-offset`.
+    //You are in control where skrollr will scroll to. You get the clicked link as a parameter and are expected to return a number.
+    //handleLink: function(link) {
+        //return 400;//Hardcoding 400 doesn't make much sense.
+    //}
+});
+}
+
+
+        </script>
+    </body>
+</html>
